@@ -22,6 +22,10 @@
 // console.log(sayhello("Rhutuja"))
 
 
+// const sum=(a,b)=>{return a+b}
+// console.log(sum(2,5))
+
+
 // const sayhello=(name)=>{return `Hey there ${name}`}
 // console.log(sayhello("Rhutuja"))
 
@@ -35,16 +39,25 @@
 // console.log(sayhello("rhutuja"))
 
 
+// (function(a,b){console.log(a+b)})(10,20)
 
 
-// let a=[["a",1],["b",2]]
-// let d={}
-// for (let i=0;i<=a.length;i++){
-//     for (let j=0;j<=a[i].length-1;j++){
-//         d[a[i][j]]=a[i][j+1]
-//     }
+// let a= function(x,y){
+//    console.log(x+y)
 // }
-// console.log(d)
+// a(2,4)
+
+
+
+
+let a=[["a",1],["b",2]]
+let d={}
+for (i of a){
+    for (let j=0;j<i.length-1;j++){
+        d[i[j]]=i[j+1]
+    }
+}
+console.log(d)
 
 
 // let a=[["a",1],["b",2]]
@@ -99,4 +112,17 @@
 
 // console.log(x === y) 
 
+
+
+// function myConcat(separator) {
+//     var result = ''; // initialize list
+//     var i;
+//     // iterate through arguments
+//     for (i = 1; i < arguments.length; i++) {
+//        result += arguments[i] + separator;
+//     }
+//     return result;
+//  }
+//  console.log(myConcat())
+ 
 

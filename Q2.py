@@ -86,3 +86,66 @@
 #     else:
 #         return fac(n-1)+fac(n-2)
 # print(fac(7))
+
+
+
+# l=[13,12,21,16,35,7,4]
+# s=5
+# s1=3
+# for i in l:
+#     if i%4==0:
+#         s+=i
+#     if i%7==0:
+#         s1+=i
+# print(s)
+# print(s1)
+
+
+# L = [13 , 12 , 21 , 16 , 35 , 7, 4]
+# s = 5
+# s1 = 3
+# for i in L:
+#     # print(i)
+#     if (i % 4 == 0):
+#         s = s + i
+#     # continue
+#     if (i % 7 == 0):
+#         s1 = s1 + i
+# print(s , end=" ")
+# print(s1)
+
+
+
+# s1="csworld.com"
+# c=0
+# for x in s1:
+#     if(x!="l"):
+#         c=c+1
+# print(c)
+
+# for i in range(7,-2,-9):
+#     for i in range(i):
+#         print(i)
+    # print()
+
+# i=9
+# while True:
+#     if i%3==0:
+    
+#        print("a")
+#        break
+
+# a=[1,3,5,"2","5",8]
+# l=[]
+# for i in a:
+#     # print(i)
+#     if type(i)==int:
+#         # print(i)
+#         l.append(i)
+# print(l)
+    # else:
+        # print(i)
+
+
+a=[2,3,4,51,3]
+print(max(a))
